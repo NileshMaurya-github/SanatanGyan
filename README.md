@@ -1,22 +1,26 @@
-# Welcome to your Lovable project
+# Nileshment - Wisdom, Motivation & Daily Learning
 
-## Project info
+## Project Overview
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+**Website**: https://nileshment.com
+**YouTube**: https://www.youtube.com/@Nileshment
 
-## How can I edit this code?
+## About
 
-There are several ways of editing your application.
+Nileshment is a personal development platform empowering minds through:
+- Book summaries and key insights
+- Motivational content and quotes
+- Daily learning videos
+- Educational shorts
+- Special series on personal growth
 
-**Use Lovable**
+With 500K+ subscribers and 50M+ views, we're building a community of continuous learners.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## How to Edit This Project
 
-Changes made via Lovable will be committed automatically to this repo.
+### Use your preferred IDE
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+If you want to work locally using your own IDE, you can clone this repo and push changes.
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
@@ -24,10 +28,10 @@ Follow these steps:
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+git clone https://github.com/NileshMaurya-github/nileshment.git
 
 # Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+cd nileshment
 
 # Step 3: Install the necessary dependencies.
 npm i
@@ -36,13 +40,13 @@ npm i
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### Edit a file directly in GitHub
 
 - Navigate to the desired file(s).
 - Click the "Edit" button (pencil icon) at the top right of the file view.
 - Make your changes and commit the changes.
 
-**Use GitHub Codespaces**
+### Use GitHub Codespaces
 
 - Navigate to the main page of your repository.
 - Click on the "Code" button (green button) near the top right.
@@ -50,24 +54,49 @@ npm run dev
 - Click on "New codespace" to launch a new Codespace environment.
 - Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
+## Technologies Used
 
 This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **Vite** - Lightning-fast build tool
+- **TypeScript** - Type-safe JavaScript
+- **React** - UI library
+- **shadcn/ui** - High-quality UI components
+- **Tailwind CSS** - Utility-first styling
+- **Lucide React** - Beautiful icons
 
-## How can I deploy this project?
+## Features
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+- ✨ Modern, responsive design
+- 🎨 Smooth animations and transitions
+- 📱 Mobile-first approach
+- 🎯 SEO optimized
+- ⚡ Fast performance
+- 🌐 Social media integration (10+ platforms)
+- 🎬 Video content showcase
+- 📚 Category organization
 
-## Can I connect a custom domain to my Lovable project?
+## Deployment
 
-Yes, you can!
+You can deploy this project to:
+- **Vercel** (recommended for Vite projects)
+- **Netlify**
+- **Cloudflare Pages**
+- **GitHub Pages**
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Social Media
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Follow us across platforms:
+- YouTube: [@Nileshment](https://www.youtube.com/@Nileshment)
+- Instagram: [@nileshment](https://www.instagram.com/nileshment)
+- Facebook: [Nileshment](https://www.facebook.com/Nileshment)
+- Twitter/X: [@Nileshment](https://x.com/Nileshment)
+- LinkedIn: [Nileshment](https://www.linkedin.com/company/Nileshment)
+
+## License
+
+© 2025 Nileshment. All rights reserved.
+
+---
+
+Made with ❤️ for continuous learners worldwide

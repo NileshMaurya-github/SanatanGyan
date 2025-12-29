@@ -7,4 +7,4 @@ Disallow: /admin/
 Crawl-delay: 1
 
 # Sitemaps
-Sitemap: https://nileshment.vercel.app/sitemap.xml
+Sitemap: https://sanatangyan.vercel.app/sitemap.xml

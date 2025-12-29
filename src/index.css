@@ -6,65 +6,73 @@
 
 @layer base {
   :root {
-    --background: 40 33% 98%;
-    --foreground: 220 25% 15%;
+    /* Spiritual Devotional Color Scheme - Saffron & Sacred Orange */
+    --background: 25 35% 98%;
+    --foreground: 15 45% 12%;
 
     --card: 0 0% 100%;
-    --card-foreground: 220 25% 15%;
+    --card-foreground: 15 45% 12%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 220 25% 15%;
+    --popover-foreground: 15 45% 12%;
 
-    --primary: 38 92% 50%;
+    --primary: 25 95% 58%;
+    /* Sacred Saffron */
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 40 20% 94%;
-    --secondary-foreground: 220 25% 15%;
+    --secondary: 15 60% 92%;
+    --secondary-foreground: 15 45% 12%;
 
-    --muted: 40 15% 92%;
-    --muted-foreground: 220 10% 45%;
+    --muted: 25 20% 94%;
+    --muted-foreground: 15 15% 40%;
 
-    --accent: 38 92% 50%;
+    --accent: 8 85% 55%;
+    /* Deep Devotional Red-Orange */
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 40 15% 88%;
-    --input: 40 15% 88%;
-    --ring: 38 92% 50%;
+    --border: 25 20% 88%;
+    --input: 25 20% 88%;
+    --ring: 25 95% 58%;
 
-    --radius: 0.75rem;
+    --radius: 1rem;
 
-    /* Enhanced design tokens */
-    --gradient-gold: linear-gradient(135deg, hsl(38, 92%, 50%) 0%, hsl(28, 90%, 45%) 50%, hsl(38, 92%, 55%) 100%);
-    --gradient-gold-vibrant: linear-gradient(135deg, hsl(45, 100%, 60%) 0%, hsl(38, 92%, 50%) 50%, hsl(28, 90%, 45%) 100%);
-    --gradient-light: linear-gradient(180deg, hsl(40, 33%, 98%) 0%, hsl(40, 25%, 95%) 100%);
-    --gradient-card: linear-gradient(145deg, hsl(0, 0%, 100%) 0%, hsl(40, 20%, 98%) 100%);
-    --gradient-hero: radial-gradient(ellipse at 50% 0%, hsl(38, 92%, 50%, 0.15) 0%, transparent 70%);
-    --gradient-dark: linear-gradient(180deg, hsl(220, 25%, 8%) 0%, hsl(220, 25%, 12%) 100%);
-    --gradient-mesh: linear-gradient(135deg, hsl(38, 92%, 50%, 0.1) 0%, hsl(28, 90%, 45%, 0.05) 100%);
-    
-    --glow-gold: 0 0 40px hsl(38, 92%, 50%, 0.3);
-    --glow-gold-intense: 0 0 60px hsl(38, 92%, 50%, 0.5);
-    --glow-subtle: 0 0 60px hsl(38, 92%, 50%, 0.08);
-    
-    --shadow-card: 0 4px 24px -4px hsl(220, 20%, 20%, 0.08);
-    --shadow-card-hover: 0 12px 48px -8px hsl(220, 20%, 20%, 0.12);
-    --shadow-hover: 0 8px 40px -8px hsl(38, 92%, 50%, 0.25);
-    --shadow-intense: 0 16px 64px -12px hsl(38, 92%, 50%, 0.3);
+    /* Sacred Spiritual Design Tokens */
+    --gradient-gold: linear-gradient(135deg, hsl(38, 98%, 62%) 0%, hsl(25, 95%, 58%) 50%, hsl(15, 90%, 52%) 100%);
+    --gradient-saffron: linear-gradient(135deg, hsl(25, 95%, 58%) 0%, hsl(8, 85%, 55%) 50%, hsl(340, 75%, 48%) 100%);
+    --gradient-gold-vibrant: linear-gradient(135deg, hsl(45, 100%, 65%) 0%, hsl(38, 98%, 62%) 30%, hsl(25, 95%, 58%) 60%, hsl(8, 85%, 55%) 100%);
+    --gradient-light: linear-gradient(180deg, hsl(25, 35%, 98%) 0%, hsl(25, 30%, 95%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(0, 0%, 100%) 0%, hsl(25, 25%, 98%) 100%);
+    --gradient-hero: radial-gradient(ellipse at 50% 0%, hsl(25, 95%, 58%, 0.20) 0%, hsl(8, 85%, 55%, 0.10) 40%, transparent 70%);
+    --gradient-dark: linear-gradient(180deg, hsl(15, 35%, 8%) 0%, hsl(8, 25%, 12%) 100%);
+    --gradient-mesh: linear-gradient(135deg, hsl(25, 95%, 58%, 0.12) 0%, hsl(8, 85%, 55%, 0.08) 100%);
+    --gradient-divine: linear-gradient(135deg, hsl(38, 98%, 62%) 0%, hsl(25, 95%, 58%) 25%, hsl(8, 85%, 55%) 50%, hsl(340, 75%, 48%) 75%, hsl(280, 70%, 45%) 100%);
+    --gradient-cosmic: radial-gradient(ellipse at center, hsl(280, 70%, 45%, 0.15) 0%, hsl(8, 85%, 55%, 0.10) 50%, transparent 100%);
+
+    --glow-saffron: 0 0 40px hsl(25, 95%, 58%, 0.4);
+    --glow-saffron-intense: 0 0 80px hsl(25, 95%, 58%, 0.6), 0 0 120px hsl(8, 85%, 55%, 0.3);
+    --glow-divine: 0 0 60px hsl(38, 98%, 62%, 0.5), 0 0 100px hsl(25, 95%, 58%, 0.3);
+    --glow-subtle: 0 0 60px hsl(25, 95%, 58%, 0.10);
+
+    --shadow-card: 0 4px 24px -4px hsl(15, 40%, 20%, 0.10);
+    --shadow-card-hover: 0 12px 48px -8px hsl(15, 40%, 20%, 0.15);
+    --shadow-hover: 0 8px 40px -8px hsl(25, 95%, 58%, 0.30);
+    --shadow-intense: 0 16px 64px -12px hsl(25, 95%, 58%, 0.35), 0 8px 32px -8px hsl(8, 85%, 55%, 0.20);
+    --shadow-3d: 0 20px 80px -16px hsl(25, 95%, 58%, 0.4), 0 10px 40px -10px hsl(8, 85%, 55%, 0.3);
 
     --font-display: 'Playfair Display', serif;
     --font-body: 'Plus Jakarta Sans', sans-serif;
 
     --sidebar-background: 0 0% 100%;
-    --sidebar-foreground: 220 25% 15%;
-    --sidebar-primary: 38 92% 50%;
+    --sidebar-foreground: 15 45% 12%;
+    --sidebar-primary: 25 95% 58%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 40 20% 94%;
-    --sidebar-accent-foreground: 220 25% 15%;
-    --sidebar-border: 40 15% 88%;
-    --sidebar-ring: 38 92% 50%;
+    --sidebar-accent: 25 60% 94%;
+    --sidebar-accent-foreground: 15 45% 12%;
+    --sidebar-border: 25 20% 88%;
+    --sidebar-ring: 25 95% 58%;
   }
 }
 
@@ -87,14 +95,20 @@
     overflow-x: hidden;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     font-family: var(--font-display);
     letter-spacing: -0.02em;
     font-weight: 700;
   }
 
   /* Performance optimization */
-  img, video {
+  img,
+  video {
     @apply will-change-auto;
   }
 
@@ -110,6 +124,7 @@
 }
 
 @layer utilities {
+
   /* Text gradients */
   .text-gradient {
     @apply bg-clip-text text-transparent;
@@ -153,6 +168,18 @@
     background-image: var(--gradient-mesh);
   }
 
+  .bg-gradient-saffron {
+    background-image: var(--gradient-saffron);
+  }
+
+  .bg-gradient-divine {
+    background-image: var(--gradient-divine);
+  }
+
+  .bg-gradient-cosmic {
+    background-image: var(--gradient-cosmic);
+  }
+
   /* Glassmorphism effect */
   .glass {
     background: rgba(255, 255, 255, 0.7);
@@ -168,6 +195,13 @@
     border: 1px solid rgba(255, 255, 255, 0.08);
   }
 
+  .glass-spiritual {
+    background: rgba(255, 158, 67, 0.15);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 2px solid rgba(255, 158, 67, 0.25);
+  }
+
   /* Glow effects */
   .glow-gold {
     box-shadow: var(--glow-gold);
@@ -175,6 +209,18 @@
 
   .glow-gold-intense {
     box-shadow: var(--glow-gold-intense);
+  }
+
+  .glow-saffron {
+    box-shadow: var(--glow-saffron);
+  }
+
+  .glow-saffron-intense {
+    box-shadow: var(--glow-saffron-intense);
+  }
+
+  .glow-divine {
+    box-shadow: var(--glow-divine);
   }
 
   .glow-subtle {
@@ -198,6 +244,35 @@
     box-shadow: var(--shadow-intense);
   }
 
+  .shadow-3d {
+    box-shadow: var(--shadow-3d);
+  }
+
+  /* 3D Transform Effects */
+  .transform-3d {
+    transform-style: preserve-3d;
+    perspective: 1000px;
+  }
+
+  .card-3d {
+    transform-style: preserve-3d;
+    transition: transform 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card-3d:hover {
+    transform: rotateY(5deg) rotateX(5deg) translateZ(20px);
+  }
+
+  .float-3d {
+    animation: float3D 6s ease-in-out infinite;
+    transform-style: preserve-3d;
+  }
+
+  .rotate-3d {
+    animation: rotate3D 20s linear infinite;
+    transform-style: preserve-3d;
+  }
+
   /* Animations */
   .animate-float {
     animation: float 8s ease-in-out infinite;
@@ -212,6 +287,11 @@
   .animate-glow {
     animation: glow 4s ease-in-out infinite;
     will-change: opacity;
+  }
+
+  .animate-divine-pulse {
+    animation: divinePulse 3s ease-in-out infinite;
+    will-change: transform, box-shadow;
   }
 
   .animate-fade-up {
@@ -255,6 +335,11 @@
     will-change: background-position;
   }
 
+  .animate-om-spin {
+    animation: omSpin 30s linear infinite;
+    transform-origin: center;
+  }
+
   /* Hover effects */
   .hover-lift {
     @apply transition-all duration-300 ease-out;
@@ -270,6 +355,10 @@
 
   .hover-scale:hover {
     @apply scale-105;
+  }
+
+  .hover-divine:hover {
+    @apply shadow-3d;
   }
 
   /* Scroll reveal animations */
@@ -300,22 +389,29 @@
 
 /* Enhanced keyframes */
 @keyframes float {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: translateY(0) rotate(0deg);
   }
+
   33% {
     transform: translateY(-15px) rotate(1deg);
   }
+
   66% {
     transform: translateY(-10px) rotate(-1deg);
   }
 }
 
 @keyframes glow {
-  0%, 100% {
+
+  0%,
+  100% {
     opacity: 0.6;
     filter: blur(8px);
   }
+
   50% {
     opacity: 1;
     filter: blur(12px);
@@ -327,6 +423,7 @@
     opacity: 0;
     transform: translateY(40px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -337,6 +434,7 @@
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -347,6 +445,7 @@
     opacity: 0;
     transform: scale(0.9);
   }
+
   to {
     opacity: 1;
     transform: scale(1);
@@ -358,6 +457,7 @@
     opacity: 0;
     transform: translateX(-40px);
   }
+
   to {
     opacity: 1;
     transform: translateX(0);
@@ -369,6 +469,7 @@
     opacity: 0;
     transform: translateX(40px);
   }
+
   to {
     opacity: 1;
     transform: translateX(0);
@@ -376,18 +477,24 @@
 }
 
 @keyframes bounceSubtle {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: translateY(0);
   }
+
   50% {
     transform: translateY(-10px);
   }
 }
 
 @keyframes pulseSlow {
-  0%, 100% {
+
+  0%,
+  100% {
     opacity: 1;
   }
+
   50% {
     opacity: 0.7;
   }
@@ -397,8 +504,60 @@
   0% {
     background-position: -200% center;
   }
+
   100% {
     background-position: 200% center;
+  }
+}
+
+/* 3D and Spiritual Keyframes */
+@keyframes float3D {
+
+  0%,
+  100% {
+    transform: translateY(0) translateZ(0) rotateY(0deg);
+  }
+
+  33% {
+    transform: translateY(-20px) translateZ(15px) rotateY(5deg);
+  }
+
+  66% {
+    transform: translateY(-10px) translateZ(10px) rotateY(-5deg);
+  }
+}
+
+@keyframes rotate3D {
+  0% {
+    transform: rotateY(0deg) rotateX(0deg);
+  }
+
+  100% {
+    transform: rotateY(360deg) rotateX(360deg);
+  }
+}
+
+@keyframes divinePulse {
+
+  0%,
+  100% {
+    transform: scale(1);
+    box-shadow: var(--glow-saffron);
+  }
+
+  50% {
+    transform: scale(1.03);
+    box-shadow: var(--glow-saffron-intense);
+  }
+}
+
+@keyframes omSpin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
   }
 }
 

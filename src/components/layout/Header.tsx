@@ -42,13 +42,13 @@ export function Header() {
             className="flex items-center gap-3 group"
           >
             <div className="relative">
-              <div className="w-11 h-11 rounded-xl bg-gradient-gold flex items-center justify-center shadow-lg transition-all duration-500 group-hover:scale-110 group-hover:rotate-6 group-hover:shadow-intense">
-                <span className="font-display font-black text-primary-foreground text-xl">N</span>
+              <div className="w-11 h-11 rounded-xl bg-gradient-saffron flex items-center justify-center shadow-3d transition-all duration-500 group-hover:scale-110 group-hover:rotate-12 group-hover:shadow-intense glow-saffron">
+                <span className="font-display font-black text-primary-foreground text-2xl animate-om-spin" style={{ animationDuration: '60s' }}>ॐ</span>
               </div>
-              <div className="absolute inset-0 rounded-xl bg-gradient-gold opacity-0 group-hover:opacity-60 blur-xl transition-all duration-500" />
+              <div className="absolute inset-0 rounded-xl bg-gradient-divine opacity-0 group-hover:opacity-60 blur-xl transition-all duration-500 animate-divine-pulse" />
             </div>
-            <span className="font-display text-xl font-bold text-foreground transition-all duration-300 group-hover:text-gradient">
-              Nileshment
+            <span className="font-display text-xl font-bold text-foreground transition-all duration-300 group-hover:text-gradient-vibrant">
+              Sanatan Gyan
             </span>
           </Link>
 
@@ -85,7 +85,7 @@ export function Header() {
               className="shadow-lg hover:shadow-intense transition-all duration-500 hover:scale-105"
             >
               <a
-                href="https://www.youtube.com/@Nileshment?sub_confirmation=1"
+                href="https://www.youtube.com/@Sanatangyanpodcast?sub_confirmation=1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2"
@@ -142,7 +142,7 @@ export function Header() {
               className="mt-2 shadow-lg hover:shadow-intense transition-all duration-500"
             >
               <a
-                href="https://www.youtube.com/@Nileshment?sub_confirmation=1"
+                href="https://www.youtube.com/@Sanatangyanpodcast?sub_confirmation=1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2"

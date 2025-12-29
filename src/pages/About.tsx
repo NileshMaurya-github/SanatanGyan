@@ -7,45 +7,45 @@ import { Youtube, Twitter, Instagram, Mail, BookOpen, Lightbulb, Heart, Target }
 const values = [
   {
     icon: <BookOpen className="w-6 h-6" />,
-    title: "Continuous Learning",
-    description: "We believe in the power of lifelong learning and personal development.",
+    title: "Sacred Knowledge",
+    description: "We preserve and share the eternal wisdom of Bhagavad Gita, Upanishads, and Vedic scriptures.",
   },
   {
     icon: <Lightbulb className="w-6 h-6" />,
-    title: "Practical Wisdom",
-    description: "Every piece of content is designed to provide actionable insights you can apply today.",
+    title: "Spiritual Guidance",
+    description: "Every teaching illuminates the path to self-realization and divine consciousness.",
   },
   {
     icon: <Heart className="w-6 h-6" />,
-    title: "Authentic Growth",
-    description: "We focus on genuine transformation, not quick fixes or superficial motivation.",
+    title: "Devotional Practice",
+    description: "We nurture Bhakti (devotion), Jnana (knowledge), and Karma (righteous action).",
   },
   {
     icon: <Target className="w-6 h-6" />,
-    title: "Purposeful Living",
-    description: "Helping you discover and pursue your unique purpose in life.",
+    title: "Dharmic Living",
+    description: "Guiding seekers to live according to Sanatana Dharma and eternal spiritual principles.",
   },
 ];
 
 const socialLinks = [
-  { name: "YouTube", href: "https://www.youtube.com/@Nileshment", icon: Youtube },
+  { name: "YouTube", href: "https://www.youtube.com/@Sanatangyanpodcast", icon: Youtube },
   { name: "Twitter", href: "#", icon: Twitter },
   { name: "Instagram", href: "#", icon: Instagram },
-  { name: "Email", href: "mailto:contact@nileshment.com", icon: Mail },
+  { name: "Email", href: "mailto:contact@sanatangyan.com", icon: Mail },
 ];
 
 export default function About() {
   return (
     <>
       <Helmet>
-        <title>About Nileshment - Our Mission & Story</title>
+        <title>About Sanatan Gyan - Our Spiritual Mission & Divine Purpose</title>
         <meta
           name="description"
-          content="Learn about Nileshment's mission to empower minds through wisdom, book summaries, and daily motivation. Join 500K+ subscribers on a journey of growth."
+          content="Learn about Sanatan Gyan's sacred mission to illuminate souls with wisdom from Bhagavad Gita, Ashtavakra Gita & Vedic scriptures. Join 500K+ spiritual seekers on the path to enlightenment."
         />
-        <meta property="og:title" content="About Nileshment" />
-        <meta property="og:description" content="Our mission to empower minds through wisdom." />
-        <link rel="canonical" href="https://nileshment.com/about" />
+        <meta property="og:title" content="About Sanatan Gyan - Spiritual Wisdom" />
+        <meta property="og:description" content="Our divine mission to illuminate souls with eternal scriptural wisdom." />
+        <link rel="canonical" href="https://nileshment.vercel.app/about" />
       </Helmet>
 
       <Layout>
@@ -53,15 +53,15 @@ export default function About() {
         <section className="pt-32 pb-20 relative overflow-hidden">
           <div className="absolute inset-0 bg-gradient-hero opacity-50" />
           <div className="absolute top-1/3 right-1/4 w-96 h-96 bg-primary/10 rounded-full blur-3xl animate-float" />
-          
+
           <div className="container mx-auto px-4 relative z-10">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6">
-                Empowering Minds, One Video at a Time
+                Illuminating Souls with <span className="text-gradient-vibrant">Divine Wisdom</span>
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-                Welcome to Nileshment — your companion on the journey of continuous growth, 
-                wisdom, and personal transformation.
+                Welcome to Sanatan Gyan — your sacred companion on the eternal journey of
+                spiritual awakening, self-realization, and divine transformation through Vedic wisdom.
               </p>
             </div>
           </div>
@@ -73,27 +73,27 @@ export default function About() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
               <div>
                 <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-6">
-                  The <span className="text-gradient">Story</span>
+                  The <span className="text-gradient-vibrant">Sacred Journey</span>
                 </h2>
                 <div className="space-y-4 text-muted-foreground leading-relaxed">
                   <p>
-                    Nileshment was born from a simple belief: that everyone deserves access 
-                    to life-changing wisdom, regardless of how much time they have to read 
-                    or how many books they can afford.
+                    Sanatan Gyan was born from a divine calling: to make the eternal wisdom of
+                    Hindu scriptures accessible to every spiritual seeker, regardless of their
+                    background or Sanskrit knowledge.
                   </p>
                   <p>
-                    What started as a passion for sharing book summaries has grown into a 
-                    movement of continuous learners, united by the desire to become better 
-                    versions of themselves every single day.
+                    What began as a humble effort to share teachings from Bhagavad Gita has blossomed
+                    into a sanctuary of spiritual knowledge, where souls gather to learn from the
+                    Upanishads, Ashtavakra Gita, Yoga Sutras, and sacred Vedic mantras.
                   </p>
                   <p>
-                    Today, we're proud to serve a community of over {channelStats.subscribers} 
-                    subscribers who tune in for wisdom, motivation, and practical insights 
-                    that make a real difference in their lives.
+                    Today, we're blessed to serve a community of over {channelStats.subscribers}
+                    spiritual seekers who turn to us for scriptural wisdom, devotional guidance,
+                    and the timeless truths that lead to moksha (liberation).
                   </p>
                 </div>
               </div>
-              
+
               <div className="relative">
                 <div className="aspect-square rounded-2xl bg-gradient-card border border-border overflow-hidden">
                   <img
@@ -113,11 +113,11 @@ export default function About() {
         <section className="py-20 bg-card/50">
           <div className="container mx-auto px-4">
             <div className="text-center mb-16">
-              <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-4">
-                Our Core Values
+              <h2 className="font-display text-3xl md:text-4xl font-bold text-gradient-vibrant mb-4">
+                Our Sacred Values
               </h2>
               <p className="text-muted-foreground max-w-2xl mx-auto">
-                These principles guide everything we create and share with our community.
+                These eternal principles from Sanatana Dharma guide every teaching we share.
               </p>
             </div>
 
@@ -148,13 +148,13 @@ export default function About() {
             <div className="max-w-4xl mx-auto">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
                 {[
-                  { label: "Subscribers", value: channelStats.subscribers },
-                  { label: "Total Views", value: channelStats.totalViews },
-                  { label: "Videos", value: channelStats.videos },
-                  { label: "Years Active", value: channelStats.yearsActive },
+                  { label: "Spiritual Seekers", value: channelStats.subscribers },
+                  { label: "Divine Views", value: channelStats.totalViews },
+                  { label: "Sacred Teachings", value: channelStats.videos },
+                  { label: "Years of Service", value: channelStats.yearsActive },
                 ].map((stat) => (
                   <div key={stat.label}>
-                    <div className="font-display text-4xl md:text-5xl font-bold text-gradient mb-2">
+                    <div className="font-display text-4xl md:text-5xl font-bold text-gradient-vibrant mb-2">
                       {stat.value}
                     </div>
                     <div className="text-muted-foreground">{stat.label}</div>
@@ -169,11 +169,11 @@ export default function About() {
         <section className="py-20 bg-card/50">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center">
-              <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-6">
-                Connect With Us
+              <h2 className="font-display text-3xl md:text-4xl font-bold text-gradient-vibrant mb-6">
+                Join Our Spiritual Sangha
               </h2>
               <p className="text-muted-foreground mb-10">
-                Join our community and be part of the journey towards continuous growth.
+                Connect with us and become part of our sacred community on the path to enlightenment.
               </p>
 
               <div className="flex flex-wrap items-center justify-center gap-4 mb-10">
@@ -191,15 +191,15 @@ export default function About() {
                 ))}
               </div>
 
-              <Button variant="hero" size="xl" asChild>
+              <Button variant="hero" size="xl" asChild className="shadow-3d hover:shadow-intense">
                 <a
-                  href="https://www.youtube.com/@Nileshment?sub_confirmation=1"
+                  href="https://www.youtube.com/@Sanatangyanpodcast?sub_confirmation=1"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2"
                 >
                   <Youtube className="w-5 h-5" />
-                  Subscribe on YouTube
+                  Subscribe for Divine Wisdom
                 </a>
               </Button>
             </div>

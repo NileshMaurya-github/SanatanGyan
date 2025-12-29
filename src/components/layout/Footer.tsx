@@ -21,10 +21,10 @@ const navigation = {
     { name: "Contact", href: "/contact" },
   ],
   categories: [
-    { name: "Book Summaries", href: "/category/book-summaries" },
-    { name: "Motivational Quotes", href: "/category/motivational-quotes" },
-    { name: "Daily Learning", href: "/category/daily-learning" },
-    { name: "Shorts", href: "/category/shorts" },
+    { name: "Bhagavad Gita", href: "/category/book-summaries" },
+    { name: "Ashtavakra Gita", href: "/category/motivational-quotes" },
+    { name: "Vedic Wisdom", href: "/category/daily-learning" },
+    { name: "Sacred Teachings", href: "/category/shorts" },
   ],
   legal: [
     { name: "Privacy Policy", href: "/privacy-policy" },
@@ -32,65 +32,71 @@ const navigation = {
   ],
 };
 
-// Complete social media links with all platforms
+// Complete social media links with all Sanatan Gyan platforms
 const socialLinks = [
   {
     name: "YouTube",
-    href: "https://www.youtube.com/@Nileshment",
+    href: "https://www.youtube.com/@Sanatangyanpodcast",
     icon: Youtube,
     color: "hover:bg-red-500/10 hover:text-red-500"
   },
   {
     name: "Instagram",
-    href: "https://www.instagram.com/nileshment",
+    href: "https://www.instagram.com/sanatangyanpodcast",
     icon: Instagram,
     color: "hover:bg-pink-500/10 hover:text-pink-500"
   },
   {
+    name: "Instagram 2",
+    href: "https://www.instagram.com/gitagyaan",
+    icon: Instagram,
+    color: "hover:bg-pink-600/10 hover:text-pink-600"
+  },
+  {
     name: "Facebook",
-    href: "https://www.facebook.com/Nileshment",
+    href: "https://www.facebook.com/Sanatangyanpodcast/",
     icon: Facebook,
     color: "hover:bg-blue-500/10 hover:text-blue-500"
   },
   {
+    name: "Facebook 2",
+    href: "https://www.facebook.com/gitagyaan1",
+    icon: Facebook,
+    color: "hover:bg-blue-600/10 hover:text-blue-600"
+  },
+  {
     name: "X (Twitter)",
-    href: "https://x.com/Nileshment",
+    href: "https://x.com/Sanatangyanpod",
     icon: Twitter,
     color: "hover:bg-sky-400/10 hover:text-sky-400"
   },
   {
     name: "LinkedIn",
-    href: "https://www.linkedin.com/company/Nileshment",
+    href: "https://www.linkedin.com/company/sanatan-gyan/",
     icon: Linkedin,
     color: "hover:bg-blue-600/10 hover:text-blue-600"
   },
   {
     name: "Threads",
-    href: "https://www.threads.net/@nileshment",
+    href: "https://www.threads.net/@sanatangyan",
     icon: MessageCircle,
     color: "hover:bg-purple-500/10 hover:text-purple-500"
   },
   {
     name: "Telegram",
-    href: "https://t.me/Nileshment",
+    href: "https://t.me/Sanatangyanpodcast",
     icon: Send,
     color: "hover:bg-cyan-500/10 hover:text-cyan-500"
   },
   {
-    name: "Pinterest",
-    href: "https://www.pinterest.com/Nileshment",
-    icon: Mail,
-    color: "hover:bg-red-600/10 hover:text-red-600"
-  },
-  {
     name: "Snapchat",
-    href: "https://www.snapchat.com/add/Nileshment",
+    href: "https://www.snapchat.com/add/Sanatangyanpod",
     icon: Camera,
     color: "hover:bg-yellow-400/10 hover:text-yellow-400"
   },
   {
     name: "WhatsApp",
-    href: "https://www.whatsapp.com/channel/0029Vb70F8hCnA7lxZE0Qg24",
+    href: "https://www.whatsapp.com/channel/0029Vb6uTIvAjPXH21LOWW0N",
     icon: MessageCircle,
     color: "hover:bg-green-500/10 hover:text-green-500"
   },
@@ -105,26 +111,26 @@ export function Footer() {
           <div className="lg:col-span-1">
             <Link to="/" className="flex items-center gap-3 group mb-6">
               <div className="relative">
-                <div className="w-12 h-12 rounded-xl bg-gradient-gold flex items-center justify-center shadow-lg transition-all duration-500 group-hover:scale-110 group-hover:rotate-6">
-                  <span className="font-display font-black text-primary-foreground text-xl">N</span>
+                <div className="w-12 h-12 rounded-xl bg-gradient-saffron flex items-center justify-center shadow-3d transition-all duration-500 group-hover:scale-110 group-hover:rotate-12 glow-saffron">
+                  <span className="font-display font-black text-primary-foreground text-2xl animate-om-spin" style={{ animationDuration: '60s' }}>ॐ</span>
                 </div>
-                <div className="absolute inset-0 rounded-xl bg-gradient-gold opacity-0 group-hover:opacity-60 blur-xl transition-all duration-500" />
+                <div className="absolute inset-0 rounded-xl bg-gradient-divine opacity-0 group-hover:opacity-60 blur-xl transition-all duration-500" />
               </div>
-              <span className="font-display text-xl font-bold text-foreground group-hover:text-gradient transition-all duration-300">
-                Nileshment
+              <span className="font-display text-xl font-bold text-foreground group-hover:text-gradient-vibrant transition-all duration-300">
+                Sanatan Gyan
               </span>
             </Link>
             <p className="text-muted-foreground text-sm leading-relaxed mb-6">
-              Empowering minds through wisdom, motivation, and daily learning. Join our community of 500K+ learners on a journey of continuous growth and transformation.
+              Illuminating souls with the eternal wisdom of Bhagavad Gita, Ashtavakra Gita & sacred scriptures. Join our community of 500K+ spiritual seekers on the path to enlightenment.
             </p>
             <a
-              href="https://www.youtube.com/@Nileshment?sub_confirmation=1"
+              href="https://www.youtube.com/@Sanatangyanpodcast?sub_confirmation=1"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-gradient-gold text-primary-foreground px-5 py-2.5 rounded-lg font-bold text-sm shadow-lg hover:shadow-intense hover:scale-105 transition-all duration-300"
+              className="inline-flex items-center gap-2 bg-gradient-saffron text-primary-foreground px-5 py-2.5 rounded-lg font-bold text-sm shadow-3d hover:shadow-intense hover:scale-105 transition-all duration-300"
             >
               <Youtube className="w-4 h-4" />
-              Subscribe Now
+              Subscribe for Wisdom
             </a>
           </div>
 
@@ -168,15 +174,15 @@ export function Footer() {
 
           {/* Stay Connected */}
           <div>
-            <h3 className="font-display text-lg font-bold text-foreground mb-6">
+            <h3 className="font-display text-lg font-bold text-gradient-vibrant mb-6">
               Stay Connected
             </h3>
             <p className="text-muted-foreground text-sm mb-6">
-              Follow us on social media for daily inspiration, book summaries, and motivational content.
+              Follow us on social media for daily spiritual insights, sacred teachings from scriptures, and devotional content.
             </p>
             <div className="flex items-center gap-2 text-sm text-muted-foreground">
-              <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse-slow"></div>
-              <span>Active on 10+ platforms</span>
+              <div className="w-2 h-2 rounded-full bg-gradient-saffron animate-divine-pulse"></div>
+              <span>Active on 11+ platforms</span>
             </div>
           </div>
         </div>
@@ -184,11 +190,12 @@ export function Footer() {
         {/* Social Media Section - Featured */}
         <div className="border-t border-border/50 pt-10 pb-8">
           <div className="text-center mb-8">
-            <h3 className="font-display text-2xl font-bold text-foreground mb-2">
+            <div className="text-3xl mb-3 animate-om-spin inline-block">ॐ</div>
+            <h3 className="font-display text-2xl font-bold text-gradient-vibrant mb-2">
               Connect With Us
             </h3>
             <p className="text-muted-foreground text-sm">
-              Join our growing community across all platforms
+              Join our spiritual community across all platforms
             </p>
           </div>
 
@@ -224,7 +231,7 @@ export function Footer() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex flex-col md:flex-row items-center gap-4">
               <p className="text-muted-foreground text-sm">
-                © {new Date().getFullYear()} Nileshment. All rights reserved.
+                © {new Date().getFullYear()} Sanatan Gyan. All rights reserved.
               </p>
               <div className="flex items-center gap-4">
                 {navigation.legal.map((item) => (
@@ -239,7 +246,7 @@ export function Footer() {
               </div>
             </div>
             <p className="text-muted-foreground text-sm flex items-center gap-2">
-              Made with <Heart className="w-4 h-4 text-primary fill-primary animate-pulse-slow" /> for continuous learners worldwide
+              Made with <Heart className="w-4 h-4 text-primary fill-primary animate-pulse-slow" /> for spiritual seekers worldwide
             </p>
           </div>
         </div>

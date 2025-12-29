@@ -9,13 +9,13 @@ const contactInfo = [
   {
     icon: <Mail className="w-5 h-5" />,
     title: "Email",
-    value: "contact@nileshment.com",
-    href: "mailto:contact@nileshment.com",
+    value: "contact@sanatangyan.com",
+    href: "mailto:contact@sanatangyan.com",
   },
   {
     icon: <MapPin className="w-5 h-5" />,
     title: "Location",
-    value: "Available Worldwide",
+    value: "Spreading Divine Wisdom Worldwide",
     href: null,
   },
   {
@@ -27,9 +27,9 @@ const contactInfo = [
 ];
 
 const socialLinks = [
-  { name: "YouTube", href: "https://www.youtube.com/@Nileshment", icon: Youtube },
-  { name: "Twitter", href: "#", icon: Twitter },
-  { name: "Instagram", href: "#", icon: Instagram },
+  { name: "YouTube", href: "https://www.youtube.com/@Sanatangyanpodcast", icon: Youtube },
+  { name: "Twitter", href: "https://x.com/Sanatangyanpod", icon: Twitter },
+  { name: "Instagram", href: "https://www.instagram.com/sanatangyanpodcast", icon: Instagram },
 ];
 
 export default function Contact() {
@@ -63,14 +63,14 @@ export default function Contact() {
   return (
     <>
       <Helmet>
-        <title>Contact Nileshment - Get in Touch</title>
+        <title>Contact Sanatan Gyan - Get in Touch for Spiritual Guidance</title>
         <meta
           name="description"
-          content="Have questions or collaboration ideas? Contact Nileshment. We'd love to hear from you and help you on your growth journey."
+          content="Have questions about sacred scriptures or spiritual guidance? Contact Sanatan Gyan. We'd love to help you on your journey to enlightenment."
         />
-        <meta property="og:title" content="Contact Nileshment" />
-        <meta property="og:description" content="Get in touch with us." />
-        <link rel="canonical" href="https://nileshment.com/contact" />
+        <meta property="og:title" content="Contact Sanatan Gyan - Spiritual Guidance" />
+        <meta property="og:description" content="Connect with us for spiritual wisdom and guidance." />
+        <link rel="canonical" href="https://nileshment.vercel.app/contact" />
       </Helmet>
 
       <Layout>
@@ -80,11 +80,11 @@ export default function Contact() {
           <div className="container mx-auto px-4 relative z-10">
             <div className="max-w-3xl mx-auto text-center">
               <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6">
-                Get in <span className="text-gradient">Touch</span>
+                Get in <span className="text-gradient-vibrant">Touch</span>
               </h1>
               <p className="text-lg text-muted-foreground">
-                Have a question, collaboration idea, or just want to say hello? 
-                We'd love to hear from you.
+                Have a question about scriptures, spiritual guidance, or collaboration ideas?
+                We'd love to hear from you on your journey to enlightenment.
               </p>
             </div>
           </div>

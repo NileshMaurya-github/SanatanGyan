@@ -1,14 +1,10 @@
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: Twitterbot
-Allow: /
-
-User-agent: facebookexternalhit
-Allow: /
-
 User-agent: *
 Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+# Crawl-delay for bots
+Crawl-delay: 1
+
+# Sitemaps
+Sitemap: https://nileshment.vercel.app/sitemap.xml

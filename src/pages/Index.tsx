@@ -24,18 +24,35 @@ export default function Index() {
   return (
     <>
       <Helmet>
-        <title>Nileshment - Wisdom, Motivation & Daily Learning</title>
+        <title>Nileshment - Book Summaries Hindi | Motivation & Daily Learning</title>
         <meta
           name="description"
-          content="Empowering minds through book summaries, motivational content, and daily learning. Join 500K+ subscribers on a journey of continuous growth."
+          content="Empowering minds through book summaries in Hindi, motivational content, and daily learning. Join 500K+ subscribers - Atomic Habits, Deep Work, Psychology of Money & more."
         />
-        <meta property="og:title" content="Nileshment - Wisdom, Motivation & Daily Learning" />
+        <meta name="keywords" content="book summaries hindi, motivational videos hindi, atomic habits hindi, deep work summary hindi, psychology of money hindi, self improvement hindi, nileshment, nilesh maurya" />
+        <meta property="og:title" content="Nileshment - Book Summaries Hindi | Motivation & Daily Learning" />
         <meta
           property="og:description"
-          content="Empowering minds through book summaries, motivational content, and daily learning."
+          content="Empowering minds through book summaries in Hindi, motivational content, and daily learning. Join 500K+ subscribers."
         />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href="https://nileshment.com" />
+        <meta property="og:url" content="https://nileshment.vercel.app/" />
+        <meta property="og:image" content="https://nileshment.vercel.app/og-image.png" />
+        <link rel="canonical" href="https://nileshment.vercel.app/" />
+
+        {/* BreadcrumbList Structured Data */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://nileshment.vercel.app/"
+            }]
+          })}
+        </script>
       </Helmet>
 
       <Layout>

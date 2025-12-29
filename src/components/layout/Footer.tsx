@@ -26,6 +26,10 @@ const navigation = {
     { name: "Daily Learning", href: "/category/daily-learning" },
     { name: "Shorts", href: "/category/shorts" },
   ],
+  legal: [
+    { name: "Privacy Policy", href: "/privacy-policy" },
+    { name: "Terms of Service", href: "/terms" },
+  ],
 };
 
 // Complete social media links with all platforms
@@ -218,9 +222,22 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-border/50 pt-8 mt-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <p className="text-muted-foreground text-sm">
-              © {new Date().getFullYear()} Nileshment. All rights reserved.
-            </p>
+            <div className="flex flex-col md:flex-row items-center gap-4">
+              <p className="text-muted-foreground text-sm">
+                © {new Date().getFullYear()} Nileshment. All rights reserved.
+              </p>
+              <div className="flex items-center gap-4">
+                {navigation.legal.map((item) => (
+                  <Link
+                    key={item.name}
+                    to={item.href}
+                    className="text-muted-foreground hover:text-primary text-sm transition-colors duration-300"
+                  >
+                    {item.name}
+                  </Link>
+                ))}
+              </div>
+            </div>
             <p className="text-muted-foreground text-sm flex items-center gap-2">
               Made with <Heart className="w-4 h-4 text-primary fill-primary animate-pulse-slow" /> for continuous learners worldwide
             </p>
